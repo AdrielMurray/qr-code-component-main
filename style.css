@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+body {
+    background-color: hsl(212, 45%, 89%);
+    
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-inline: auto;
+}
+
+
+.qrcard {
+    background-color: white;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 4%;
+    margin-top: 100px;
+
+}
+.qrcode img {
+
+  height: 270px;
+  margin-top: 10px;
+  border-radius: 6%;
+  
+   
+}
+
+.qrcode_body {
+
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+
+}
+
+.header1 {
+    font-weight: bold;
+    font-family: 'Outfit', sans-serif;
+    ;
+
+}
+
+.para1 {
+
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+    color: grey;
+    
+
+}
+
+
+/*
+font-family: 'Outfit', sans-serif;
+*/
